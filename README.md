@@ -13,566 +13,566 @@ columns beginning with "t" are time variables
 columns beginning with "f" are frequency variables
 
 
-1 subjectID     integer w/ vals 1-30
-2 activityDescription       factor w/6 levels
-3 tAccelerationMeanX
-4 tAccelerationMeanY
-5 tAccelerationMeanZ
-6 tAccelerationStdDevX
-7 tAccelerationStdDevY
-8 tAccelerationStdDevZ
-9 tAccelerationMedAbsDevX
-10 tAccelerationMedAbsDevY
-11 tAccelerationMedAbsDevZ
-12 tAccelerationMaxX
-13 tAccelerationMaxY
-14 tAccelerationMaxZ
-15 tAccelerationMinX
-16 tAccelerationMinY
-17 tAccelerationMinZ
-18 tAccelerationSignalMagnitudenitudeArea
-19 tAccelerationEnergyX
-20 tAccelerationEnergyY
-21 tAccelerationEnergyZ
-22 tAccelerationInterquartileRangeX
-23 tAccelerationInterquartileRangeY
-24 tAccelerationInterquartileRangeZ
-25 tAccelerationEntropyX
-26 tAccelerationEntropyY
-27 tAccelerationEntropyZ
-28 tAccelerationAutoregressionCoeffX_1
-29 tAccelerationAutoregressionCoeffX_2
-30 tAccelerationAutoregressionCoeffX_3
-31 tAccelerationAutoregressionCoeffX_4
-32 tAccelerationAutoregressionCoeffY_1
-33 tAccelerationAutoregressionCoeffY_2
-34 tAccelerationAutoregressionCoeffY_3
-35 tAccelerationAutoregressionCoeffY_4
-36 tAccelerationAutoregressionCoeffZ_1
-37 tAccelerationAutoregressionCoeffZ_2
-38 tAccelerationAutoregressionCoeffZ_3
-39 tAccelerationAutoregressionCoeffZ_4
-40 tAccelerationCorrelationX_Y
-41 tAccelerationCorrelationX_Z
-42 tAccelerationCorrelationY_Z
-43 tGravityAccelerationMeanX
-44 tGravityAccelerationMeanY
-45 tGravityAccelerationMeanZ
-46 tGravityAccelerationStdDevX
-47 tGravityAccelerationStdDevY
-48 tGravityAccelerationStdDevZ
-49 tGravityAccelerationMedAbsDevX
-50 tGravityAccelerationMedAbsDevY
-51 tGravityAccelerationMedAbsDevZ
-52 tGravityAccelerationMaxX
-53 tGravityAccelerationMaxY
-54 tGravityAccelerationMaxZ
-55 tGravityAccelerationMinX
-56 tGravityAccelerationMinY
-57 tGravityAccelerationMinZ
-58 tGravityAccelerationSignalMagnitudenitudeArea
-59 tGravityAccelerationEnergyX
-60 tGravityAccelerationEnergyY
-61 tGravityAccelerationEnergyZ
-62 tGravityAccelerationInterquartileRangeX
-63 tGravityAccelerationInterquartileRangeY
-64 tGravityAccelerationInterquartileRangeZ
-65 tGravityAccelerationEntropyX
-66 tGravityAccelerationEntropyY
-67 tGravityAccelerationEntropyZ
-68 tGravityAccelerationAutoregressionCoeffX_1
-69 tGravityAccelerationAutoregressionCoeffX_2
-70 tGravityAccelerationAutoregressionCoeffX_3
-71 tGravityAccelerationAutoregressionCoeffX_4
-72 tGravityAccelerationAutoregressionCoeffY_1
-73 tGravityAccelerationAutoregressionCoeffY_2
-74 tGravityAccelerationAutoregressionCoeffY_3
-75 tGravityAccelerationAutoregressionCoeffY_4
-76 tGravityAccelerationAutoregressionCoeffZ_1
-77 tGravityAccelerationAutoregressionCoeffZ_2
-78 tGravityAccelerationAutoregressionCoeffZ_3
-79 tGravityAccelerationAutoregressionCoeffZ_4
-80 tGravityAccelerationCorrelationX_Y
-81 tGravityAccelerationCorrelationX_Z
-82 tGravityAccelerationCorrelationY_Z
-83 tAccelerationJerkMeanX
-84 tAccelerationJerkMeanY
-85 tAccelerationJerkMeanZ
-86 tAccelerationJerkStdDevX
-87 tAccelerationJerkStdDevY
-88 tAccelerationJerkStdDevZ
-89 tAccelerationJerkMedAbsDevX
-90 tAccelerationJerkMedAbsDevY
-91 tAccelerationJerkMedAbsDevZ
-92 tAccelerationJerkMaxX
-93 tAccelerationJerkMaxY
-94 tAccelerationJerkMaxZ
-95 tAccelerationJerkMinX
-96 tAccelerationJerkMinY
-97 tAccelerationJerkMinZ
-98 tAccelerationJerkSignalMagnitudenitudeArea
-99 tAccelerationJerkEnergyX
-100 tAccelerationJerkEnergyY
-101 tAccelerationJerkEnergyZ
-102 tAccelerationJerkInterquartileRangeX
-103 tAccelerationJerkInterquartileRangeY
-104 tAccelerationJerkInterquartileRangeZ
-105 tAccelerationJerkEntropyX
-106 tAccelerationJerkEntropyY
-107 tAccelerationJerkEntropyZ
-108 tAccelerationJerkAutoregressionCoeffX_1
-109 tAccelerationJerkAutoregressionCoeffX_2
-110 tAccelerationJerkAutoregressionCoeffX_3
-111 tAccelerationJerkAutoregressionCoeffX_4
-112 tAccelerationJerkAutoregressionCoeffY_1
-113 tAccelerationJerkAutoregressionCoeffY_2
-114 tAccelerationJerkAutoregressionCoeffY_3
-115 tAccelerationJerkAutoregressionCoeffY_4
-116 tAccelerationJerkAutoregressionCoeffZ_1
-117 tAccelerationJerkAutoregressionCoeffZ_2
-118 tAccelerationJerkAutoregressionCoeffZ_3
-119 tAccelerationJerkAutoregressionCoeffZ_4
-120 tAccelerationJerkCorrelationX_Y
-121 tAccelerationJerkCorrelationX_Z
-122 tAccelerationJerkCorrelationY_Z
-123 tGyroscopeMeanX
-124 tGyroscopeMeanY
-125 tGyroscopeMeanZ
-126 tGyroscopeStdDevX
-127 tGyroscopeStdDevY
-128 tGyroscopeStdDevZ
-129 tGyroscopeMedAbsDevX
-130 tGyroscopeMedAbsDevY
-131 tGyroscopeMedAbsDevZ
-132 tGyroscopeMaxX
-133 tGyroscopeMaxY
-134 tGyroscopeMaxZ
-135 tGyroscopeMinX
-136 tGyroscopeMinY
-137 tGyroscopeMinZ
-138 tGyroscopeSignalMagnitudenitudeArea
-139 tGyroscopeEnergyX
-140 tGyroscopeEnergyY
-141 tGyroscopeEnergyZ
-142 tGyroscopeInterquartileRangeX
-143 tGyroscopeInterquartileRangeY
-144 tGyroscopeInterquartileRangeZ
-145 tGyroscopeEntropyX
-146 tGyroscopeEntropyY
-147 tGyroscopeEntropyZ
-148 tGyroscopeAutoregressionCoeffX_1
-149 tGyroscopeAutoregressionCoeffX_2
-150 tGyroscopeAutoregressionCoeffX_3
-151 tGyroscopeAutoregressionCoeffX_4
-152 tGyroscopeAutoregressionCoeffY_1
-153 tGyroscopeAutoregressionCoeffY_2
-154 tGyroscopeAutoregressionCoeffY_3
-155 tGyroscopeAutoregressionCoeffY_4
-156 tGyroscopeAutoregressionCoeffZ_1
-157 tGyroscopeAutoregressionCoeffZ_2
-158 tGyroscopeAutoregressionCoeffZ_3
-159 tGyroscopeAutoregressionCoeffZ_4
-160 tGyroscopeCorrelationX_Y
-161 tGyroscopeCorrelationX_Z
-162 tGyroscopeCorrelationY_Z
-163 tGyroscopeJerkMeanX
-164 tGyroscopeJerkMeanY
-165 tGyroscopeJerkMeanZ
-166 tGyroscopeJerkStdDevX
-167 tGyroscopeJerkStdDevY
-168 tGyroscopeJerkStdDevZ
-169 tGyroscopeJerkMedAbsDevX
-170 tGyroscopeJerkMedAbsDevY
-171 tGyroscopeJerkMedAbsDevZ
-172 tGyroscopeJerkMaxX
-173 tGyroscopeJerkMaxY
-174 tGyroscopeJerkMaxZ
-175 tGyroscopeJerkMinX
-176 tGyroscopeJerkMinY
-177 tGyroscopeJerkMinZ
-178 tGyroscopeJerkSignalMagnitudenitudeArea
-179 tGyroscopeJerkEnergyX
-180 tGyroscopeJerkEnergyY
-181 tGyroscopeJerkEnergyZ
-182 tGyroscopeJerkInterquartileRangeX
-183 tGyroscopeJerkInterquartileRangeY
-184 tGyroscopeJerkInterquartileRangeZ
-185 tGyroscopeJerkEntropyX
-186 tGyroscopeJerkEntropyY
-187 tGyroscopeJerkEntropyZ
-188 tGyroscopeJerkAutoregressionCoeffX_1
-189 tGyroscopeJerkAutoregressionCoeffX_2
-190 tGyroscopeJerkAutoregressionCoeffX_3
-191 tGyroscopeJerkAutoregressionCoeffX_4
-192 tGyroscopeJerkAutoregressionCoeffY_1
-193 tGyroscopeJerkAutoregressionCoeffY_2
-194 tGyroscopeJerkAutoregressionCoeffY_3
-195 tGyroscopeJerkAutoregressionCoeffY_4
-196 tGyroscopeJerkAutoregressionCoeffZ_1
-197 tGyroscopeJerkAutoregressionCoeffZ_2
-198 tGyroscopeJerkAutoregressionCoeffZ_3
-199 tGyroscopeJerkAutoregressionCoeffZ_4
-200 tGyroscopeJerkCorrelationX_Y
-201 tGyroscopeJerkCorrelationX_Z
-202 tGyroscopeJerkCorrelationY_Z
-203 tAccelerationMagnitudeMean
-204 tAccelerationMagnitudeStdDev
-205 tAccelerationMagnitudeMedAbsDev
-206 tAccelerationMagnitudeMax
-207 tAccelerationMagnitudeMin
-208 tAccelerationMagnitudeSignalMagnitudenitudeArea
-209 tAccelerationMagnitudeEnergy
-210 tAccelerationMagnitudeInterquartileRange
-211 tAccelerationMagnitudeEntropy
-212 tAccelerationMagnitudeAutoregressionCoeff1
-213 tAccelerationMagnitudeAutoregressionCoeff2
-214 tAccelerationMagnitudeAutoregressionCoeff3
-215 tAccelerationMagnitudeAutoregressionCoeff4
-216 tGravityAccelerationMagnitudeMean
-217 tGravityAccelerationMagnitudeStdDev
-218 tGravityAccelerationMagnitudeMedAbsDev
-219 tGravityAccelerationMagnitudeMax
-220 tGravityAccelerationMagnitudeMin
-221 tGravityAccelerationMagnitudeSignalMagnitudenitudeArea
-222 tGravityAccelerationMagnitudeEnergy
-223 tGravityAccelerationMagnitudeInterquartileRange
-224 tGravityAccelerationMagnitudeEntropy
-225 tGravityAccelerationMagnitudeAutoregressionCoeff1
-226 tGravityAccelerationMagnitudeAutoregressionCoeff2
-227 tGravityAccelerationMagnitudeAutoregressionCoeff3
-228 tGravityAccelerationMagnitudeAutoregressionCoeff4
-229 tAccelerationJerkMagnitudeMean
-230 tAccelerationJerkMagnitudeStdDev
-231 tAccelerationJerkMagnitudeMedAbsDev
-232 tAccelerationJerkMagnitudeMax
-233 tAccelerationJerkMagnitudeMin
-234 tAccelerationJerkMagnitudeSignalMagnitudenitudeArea
-235 tAccelerationJerkMagnitudeEnergy
-236 tAccelerationJerkMagnitudeInterquartileRange
-237 tAccelerationJerkMagnitudeEntropy
-238 tAccelerationJerkMagnitudeAutoregressionCoeff1
-239 tAccelerationJerkMagnitudeAutoregressionCoeff2
-240 tAccelerationJerkMagnitudeAutoregressionCoeff3
-241 tAccelerationJerkMagnitudeAutoregressionCoeff4
-242 tGyroscopeMagnitudeMean
-243 tGyroscopeMagnitudeStdDev
-244 tGyroscopeMagnitudeMedAbsDev
-245 tGyroscopeMagnitudeMax
-246 tGyroscopeMagnitudeMin
-247 tGyroscopeMagnitudeSignalMagnitudenitudeArea
-248 tGyroscopeMagnitudeEnergy
-249 tGyroscopeMagnitudeInterquartileRange
-250 tGyroscopeMagnitudeEntropy
-251 tGyroscopeMagnitudeAutoregressionCoeff1
-252 tGyroscopeMagnitudeAutoregressionCoeff2
-253 tGyroscopeMagnitudeAutoregressionCoeff3
-254 tGyroscopeMagnitudeAutoregressionCoeff4
-255 tGyroscopeJerkMagnitudeMean
-256 tGyroscopeJerkMagnitudeStdDev
-257 tGyroscopeJerkMagnitudeMedAbsDev
-258 tGyroscopeJerkMagnitudeMax
-259 tGyroscopeJerkMagnitudeMin
-260 tGyroscopeJerkMagnitudeSignalMagnitudenitudeArea
-261 tGyroscopeJerkMagnitudeEnergy
-262 tGyroscopeJerkMagnitudeInterquartileRange
-263 tGyroscopeJerkMagnitudeEntropy
-264 tGyroscopeJerkMagnitudeAutoregressionCoeff1
-265 tGyroscopeJerkMagnitudeAutoregressionCoeff2
-266 tGyroscopeJerkMagnitudeAutoregressionCoeff3
-267 tGyroscopeJerkMagnitudeAutoregressionCoeff4
-268 fAccelerationMeanX
-269 fAccelerationMeanY
-270 fAccelerationMeanZ
-271 fAccelerationStdDevX
-272 fAccelerationStdDevY
-273 fAccelerationStdDevZ
-274 fAccelerationMedAbsDevX
-275 fAccelerationMedAbsDevY
-276 fAccelerationMedAbsDevZ
-277 fAccelerationMaxX
-278 fAccelerationMaxY
-279 fAccelerationMaxZ
-280 fAccelerationMinX
-281 fAccelerationMinY
-282 fAccelerationMinZ
-283 fAccelerationSignalMagnitudenitudeArea
-284 fAccelerationEnergyX
-285 fAccelerationEnergyY
-286 fAccelerationEnergyZ
-287 fAccelerationInterquartileRangeX
-288 fAccelerationInterquartileRangeY
-289 fAccelerationInterquartileRangeZ
-290 fAccelerationEntropyX
-291 fAccelerationEntropyY
-292 fAccelerationEntropyZ
-293 fAccelerationMaxIndsX
-294 fAccelerationMaxIndsY
-295 fAccelerationMaxIndsZ
-296 fAccelerationMeanFreqX
-297 fAccelerationMeanFreqY
-298 fAccelerationMeanFreqZ
-299 fAccelerationSkewnessFreqX
-300 fAccelerationKurtosisFreqX
-301 fAccelerationSkewnessFreqY
-302 fAccelerationKurtosisFreqY
-303 fAccelerationSkewnessFreqZ
-304 fAccelerationKurtosisFreqZ
-305 fAccelerationEnergyFFTBands1_8
-306 fAccelerationEnergyFFTBands9_16
-307 fAccelerationEnergyFFTBands17_24
-308 fAccelerationEnergyFFTBands25_32
-309 fAccelerationEnergyFFTBands33_40
-310 fAccelerationEnergyFFTBands41_48
-311 fAccelerationEnergyFFTBands49_56
-312 fAccelerationEnergyFFTBands57_64
-313 fAccelerationEnergyFFTBands1_16
-314 fAccelerationEnergyFFTBands17_32
-315 fAccelerationEnergyFFTBands33_48
-316 fAccelerationEnergyFFTBands49_64
-317 fAccelerationEnergyFFTBands1_24
-318 fAccelerationEnergyFFTBands25_48
-319 fAccelerationEnergyFFTBands1_8.1
-320 fAccelerationEnergyFFTBands9_16.1
-321 fAccelerationEnergyFFTBands17_24.1
-322 fAccelerationEnergyFFTBands25_32.1
-323 fAccelerationEnergyFFTBands33_40.1
-324 fAccelerationEnergyFFTBands41_48.1
-325 fAccelerationEnergyFFTBands49_56.1
-326 fAccelerationEnergyFFTBands57_64.1
-327 fAccelerationEnergyFFTBands1_16.1
-328 fAccelerationEnergyFFTBands17_32.1
-329 fAccelerationEnergyFFTBands33_48.1
-330 fAccelerationEnergyFFTBands49_64.1
-331 fAccelerationEnergyFFTBands1_24.1
-332 fAccelerationEnergyFFTBands25_48.1
-333 fAccelerationEnergyFFTBands1_8.2
-334 fAccelerationEnergyFFTBands9_16.2
-335 fAccelerationEnergyFFTBands17_24.2
-336 fAccelerationEnergyFFTBands25_32.2
-337 fAccelerationEnergyFFTBands33_40.2
-338 fAccelerationEnergyFFTBands41_48.2
-339 fAccelerationEnergyFFTBands49_56.2
-340 fAccelerationEnergyFFTBands57_64.2
-341 fAccelerationEnergyFFTBands1_16.2
-342 fAccelerationEnergyFFTBands17_32.2
-343 fAccelerationEnergyFFTBands33_48.2
-344 fAccelerationEnergyFFTBands49_64.2
-345 fAccelerationEnergyFFTBands1_24.2
-346 fAccelerationEnergyFFTBands25_48.2
-347 fAccelerationJerkMeanX
-348 fAccelerationJerkMeanY
-349 fAccelerationJerkMeanZ
-350 fAccelerationJerkStdDevX
-351 fAccelerationJerkStdDevY
-352 fAccelerationJerkStdDevZ
-353 fAccelerationJerkMedAbsDevX
-354 fAccelerationJerkMedAbsDevY
-355 fAccelerationJerkMedAbsDevZ
-356 fAccelerationJerkMaxX
-357 fAccelerationJerkMaxY
-358 fAccelerationJerkMaxZ
-359 fAccelerationJerkMinX
-360 fAccelerationJerkMinY
-361 fAccelerationJerkMinZ
-362 fAccelerationJerkSignalMagnitudenitudeArea
-363 fAccelerationJerkEnergyX
-364 fAccelerationJerkEnergyY
-365 fAccelerationJerkEnergyZ
-366 fAccelerationJerkInterquartileRangeX
-367 fAccelerationJerkInterquartileRangeY
-368 fAccelerationJerkInterquartileRangeZ
-369 fAccelerationJerkEntropyX
-370 fAccelerationJerkEntropyY
-371 fAccelerationJerkEntropyZ
-372 fAccelerationJerkMaxIndsX
-373 fAccelerationJerkMaxIndsY
-374 fAccelerationJerkMaxIndsZ
-375 fAccelerationJerkMeanFreqX
-376 fAccelerationJerkMeanFreqY
-377 fAccelerationJerkMeanFreqZ
-378 fAccelerationJerkSkewnessFreqX
-379 fAccelerationJerkKurtosisFreqX
-380 fAccelerationJerkSkewnessFreqY
-381 fAccelerationJerkKurtosisFreqY
-382 fAccelerationJerkSkewnessFreqZ
-383 fAccelerationJerkKurtosisFreqZ
-384 fAccelerationJerkEnergyFFTBands1_8
-385 fAccelerationJerkEnergyFFTBands9_16
-386 fAccelerationJerkEnergyFFTBands17_24
-387 fAccelerationJerkEnergyFFTBands25_32
-388 fAccelerationJerkEnergyFFTBands33_40
-389 fAccelerationJerkEnergyFFTBands41_48
-390 fAccelerationJerkEnergyFFTBands49_56
-391 fAccelerationJerkEnergyFFTBands57_64
-392 fAccelerationJerkEnergyFFTBands1_16
-393 fAccelerationJerkEnergyFFTBands17_32
-394 fAccelerationJerkEnergyFFTBands33_48
-395 fAccelerationJerkEnergyFFTBands49_64
-396 fAccelerationJerkEnergyFFTBands1_24
-397 fAccelerationJerkEnergyFFTBands25_48
-398 fAccelerationJerkEnergyFFTBands1_8.1
-399 fAccelerationJerkEnergyFFTBands9_16.1
-400 fAccelerationJerkEnergyFFTBands17_24.1
-401 fAccelerationJerkEnergyFFTBands25_32.1
-402 fAccelerationJerkEnergyFFTBands33_40.1
-403 fAccelerationJerkEnergyFFTBands41_48.1
-404 fAccelerationJerkEnergyFFTBands49_56.1
-405 fAccelerationJerkEnergyFFTBands57_64.1
-406 fAccelerationJerkEnergyFFTBands1_16.1
-407 fAccelerationJerkEnergyFFTBands17_32.1
-408 fAccelerationJerkEnergyFFTBands33_48.1
-409 fAccelerationJerkEnergyFFTBands49_64.1
-410 fAccelerationJerkEnergyFFTBands1_24.1
-411 fAccelerationJerkEnergyFFTBands25_48.1
-412 fAccelerationJerkEnergyFFTBands1_8.2
-413 fAccelerationJerkEnergyFFTBands9_16.2
-414 fAccelerationJerkEnergyFFTBands17_24.2
-415 fAccelerationJerkEnergyFFTBands25_32.2
-416 fAccelerationJerkEnergyFFTBands33_40.2
-417 fAccelerationJerkEnergyFFTBands41_48.2
-418 fAccelerationJerkEnergyFFTBands49_56.2
-419 fAccelerationJerkEnergyFFTBands57_64.2
-420 fAccelerationJerkEnergyFFTBands1_16.2
-421 fAccelerationJerkEnergyFFTBands17_32.2
-422 fAccelerationJerkEnergyFFTBands33_48.2
-423 fAccelerationJerkEnergyFFTBands49_64.2
-424 fAccelerationJerkEnergyFFTBands1_24.2
-425 fAccelerationJerkEnergyFFTBands25_48.2
-426 fGyroscopeMeanX
-427 fGyroscopeMeanY
-428 fGyroscopeMeanZ
-429 fGyroscopeStdDevX
-430 fGyroscopeStdDevY
-431 fGyroscopeStdDevZ
-432 fGyroscopeMedAbsDevX
-433 fGyroscopeMedAbsDevY
-434 fGyroscopeMedAbsDevZ
-435 fGyroscopeMaxX
-436 fGyroscopeMaxY
-437 fGyroscopeMaxZ
-438 fGyroscopeMinX
-439 fGyroscopeMinY
-440 fGyroscopeMinZ
-441 fGyroscopeSignalMagnitudenitudeArea
-442 fGyroscopeEnergyX
-443 fGyroscopeEnergyY
-444 fGyroscopeEnergyZ
-445 fGyroscopeInterquartileRangeX
-446 fGyroscopeInterquartileRangeY
-447 fGyroscopeInterquartileRangeZ
-448 fGyroscopeEntropyX
-449 fGyroscopeEntropyY
-450 fGyroscopeEntropyZ
-451 fGyroscopeMaxIndsX
-452 fGyroscopeMaxIndsY
-453 fGyroscopeMaxIndsZ
-454 fGyroscopeMeanFreqX
-455 fGyroscopeMeanFreqY
-456 fGyroscopeMeanFreqZ
-457 fGyroscopeSkewnessFreqX
-458 fGyroscopeKurtosisFreqX
-459 fGyroscopeSkewnessFreqY
-460 fGyroscopeKurtosisFreqY
-461 fGyroscopeSkewnessFreqZ
-462 fGyroscopeKurtosisFreqZ
-463 fGyroscopeEnergyFFTBands1_8
-464 fGyroscopeEnergyFFTBands9_16
-465 fGyroscopeEnergyFFTBands17_24
-466 fGyroscopeEnergyFFTBands25_32
-467 fGyroscopeEnergyFFTBands33_40
-468 fGyroscopeEnergyFFTBands41_48
-469 fGyroscopeEnergyFFTBands49_56
-470 fGyroscopeEnergyFFTBands57_64
-471 fGyroscopeEnergyFFTBands1_16
-472 fGyroscopeEnergyFFTBands17_32
-473 fGyroscopeEnergyFFTBands33_48
-474 fGyroscopeEnergyFFTBands49_64
-475 fGyroscopeEnergyFFTBands1_24
-476 fGyroscopeEnergyFFTBands25_48
-477 fGyroscopeEnergyFFTBands1_8.1
-478 fGyroscopeEnergyFFTBands9_16.1
-479 fGyroscopeEnergyFFTBands17_24.1
-480 fGyroscopeEnergyFFTBands25_32.1
-481 fGyroscopeEnergyFFTBands33_40.1
-482 fGyroscopeEnergyFFTBands41_48.1
-483 fGyroscopeEnergyFFTBands49_56.1
-484 fGyroscopeEnergyFFTBands57_64.1
-485 fGyroscopeEnergyFFTBands1_16.1
-486 fGyroscopeEnergyFFTBands17_32.1
-487 fGyroscopeEnergyFFTBands33_48.1
-488 fGyroscopeEnergyFFTBands49_64.1
-489 fGyroscopeEnergyFFTBands1_24.1
-490 fGyroscopeEnergyFFTBands25_48.1
-491 fGyroscopeEnergyFFTBands1_8.2
-492 fGyroscopeEnergyFFTBands9_16.2
-493 fGyroscopeEnergyFFTBands17_24.2
-494 fGyroscopeEnergyFFTBands25_32.2
-495 fGyroscopeEnergyFFTBands33_40.2
-496 fGyroscopeEnergyFFTBands41_48.2
-497 fGyroscopeEnergyFFTBands49_56.2
-498 fGyroscopeEnergyFFTBands57_64.2
-499 fGyroscopeEnergyFFTBands1_16.2
-500 fGyroscopeEnergyFFTBands17_32.2
-501 fGyroscopeEnergyFFTBands33_48.2
-502 fGyroscopeEnergyFFTBands49_64.2
-503 fGyroscopeEnergyFFTBands1_24.2
-504 fGyroscopeEnergyFFTBands25_48.2
-505 fAccelerationMagnitudeMean
-506 fAccelerationMagnitudeStdDev
-507 fAccelerationMagnitudeMedAbsDev
-508 fAccelerationMagnitudeMax
-509 fAccelerationMagnitudeMin
-510 fAccelerationMagnitudeSignalMagnitudenitudeArea
-511 fAccelerationMagnitudeEnergy
-512 fAccelerationMagnitudeInterquartileRange
-513 fAccelerationMagnitudeEntropy
-514 fAccelerationMagnitudeMaxInds
-515 fAccelerationMagnitudeMeanFreq
-516 fAccelerationMagnitudeSkewnessFreq
-517 fAccelerationMagnitudeKurtosisFreq
-518 fAccelerationJerkMagnitudeMean
-519 fAccelerationJerkMagnitudeStdDev
-520 fAccelerationJerkMagnitudeMedAbsDev
-521 fAccelerationJerkMagnitudeMax
-522 fAccelerationJerkMagnitudeMin
-523 fAccelerationJerkMagnitudeSignalMagnitudenitudeArea
-524 fAccelerationJerkMagnitudeEnergy
-525 fAccelerationJerkMagnitudeInterquartileRange
-526 fAccelerationJerkMagnitudeEntropy
-527 fAccelerationJerkMagnitudeMaxInds
-528 fAccelerationJerkMagnitudeMeanFreq
-529 fAccelerationJerkMagnitudeSkewnessFreq
-530 fAccelerationJerkMagnitudeKurtosisFreq
-531 fGyroscopeMagnitudeMean
-532 fGyroscopeMagnitudeStdDev
-533 fGyroscopeMagnitudeMedAbsDev
-534 fGyroscopeMagnitudeMax
-535 fGyroscopeMagnitudeMin
-536 fGyroscopeMagnitudeSignalMagnitudenitudeArea
-537 fGyroscopeMagnitudeEnergy
-538 fGyroscopeMagnitudeInterquartileRange
-539 fGyroscopeMagnitudeEntropy
-540 fGyroscopeMagnitudeMaxInds
-541 fGyroscopeMagnitudeMeanFreq
-542 fGyroscopeMagnitudeSkewnessFreq
-543 fGyroscopeMagnitudeKurtosisFreq
-544 fGyroscopeJerkMagnitudeMean
-545 fGyroscopeJerkMagnitudeStdDev
-546 fGyroscopeJerkMagnitudeMedAbsDev
-547 fGyroscopeJerkMagnitudeMax
-548 fGyroscopeJerkMagnitudeMin
-549 fGyroscopeJerkMagnitudeSignalMagnitudenitudeArea
-550 fGyroscopeJerkMagnitudeEnergy
-551 fGyroscopeJerkMagnitudeInterquartileRange
-552 fGyroscopeJerkMagnitudeEntropy
-553 fGyroscopeJerkMagnitudeMaxInds
-554 fGyroscopeJerkMagnitudeMeanFreq
-555 fGyroscopeJerkMagnitudeSkewnessFreq
-556 fGyroscopeJerkMagnitudeKurtosisFreq
-557 angletAccelerationMean_gravity
-558 angletAccelerationJerkMean_gravityMean
-559 angletGyroscopeMean_gravityMean
-560 angletGyroscopeJerkMean_gravityMean
-561 angleX_gravityMean
-562 angleY_gravityMean
-563 angleZ_gravityMean
+  [1] "subjectID      integer w/ vals 1-30\n"                                             
+  [2] "activityDescription      factor w/6 levels\n"                                   
+  [3] "tAccelerationMeanX \n"                                    
+  [4] "tAccelerationMeanY \n"                                    
+  [5] "tAccelerationMeanZ \n"                                    
+  [6] "tAccelerationStdDevX \n"                                  
+  [7] "tAccelerationStdDevY \n"                                  
+  [8] "tAccelerationStdDevZ \n"                                  
+  [9] "tAccelerationMedAbsDevX \n"                               
+ [10] "tAccelerationMedAbsDevY \n"                               
+ [11] "tAccelerationMedAbsDevZ \n"                               
+ [12] "tAccelerationMaxX \n"                                     
+ [13] "tAccelerationMaxY \n"                                     
+ [14] "tAccelerationMaxZ \n"                                     
+ [15] "tAccelerationMinX \n"                                     
+ [16] "tAccelerationMinY \n"                                     
+ [17] "tAccelerationMinZ \n"                                     
+ [18] "tAccelerationSignalMagnitudenitudeArea \n"                
+ [19] "tAccelerationEnergyX \n"                                  
+ [20] "tAccelerationEnergyY \n"                                  
+ [21] "tAccelerationEnergyZ \n"                                  
+ [22] "tAccelerationInterquartileRangeX \n"                      
+ [23] "tAccelerationInterquartileRangeY \n"                      
+ [24] "tAccelerationInterquartileRangeZ \n"                      
+ [25] "tAccelerationEntropyX \n"                                 
+ [26] "tAccelerationEntropyY \n"                                 
+ [27] "tAccelerationEntropyZ \n"                                 
+ [28] "tAccelerationAutoregressionCoeffX_1 \n"                   
+ [29] "tAccelerationAutoregressionCoeffX_2 \n"                   
+ [30] "tAccelerationAutoregressionCoeffX_3 \n"                   
+ [31] "tAccelerationAutoregressionCoeffX_4 \n"                   
+ [32] "tAccelerationAutoregressionCoeffY_1 \n"                   
+ [33] "tAccelerationAutoregressionCoeffY_2 \n"                   
+ [34] "tAccelerationAutoregressionCoeffY_3 \n"                   
+ [35] "tAccelerationAutoregressionCoeffY_4 \n"                   
+ [36] "tAccelerationAutoregressionCoeffZ_1 \n"                   
+ [37] "tAccelerationAutoregressionCoeffZ_2 \n"                   
+ [38] "tAccelerationAutoregressionCoeffZ_3 \n"                   
+ [39] "tAccelerationAutoregressionCoeffZ_4 \n"                   
+ [40] "tAccelerationCorrelationX_Y \n"                           
+ [41] "tAccelerationCorrelationX_Z \n"                           
+ [42] "tAccelerationCorrelationY_Z \n"                           
+ [43] "tGravityAccelerationMeanX \n"                             
+ [44] "tGravityAccelerationMeanY \n"                             
+ [45] "tGravityAccelerationMeanZ \n"                             
+ [46] "tGravityAccelerationStdDevX \n"                           
+ [47] "tGravityAccelerationStdDevY \n"                           
+ [48] "tGravityAccelerationStdDevZ \n"                           
+ [49] "tGravityAccelerationMedAbsDevX \n"                        
+ [50] "tGravityAccelerationMedAbsDevY \n"                        
+ [51] "tGravityAccelerationMedAbsDevZ \n"                        
+ [52] "tGravityAccelerationMaxX \n"                              
+ [53] "tGravityAccelerationMaxY \n"                              
+ [54] "tGravityAccelerationMaxZ \n"                              
+ [55] "tGravityAccelerationMinX \n"                              
+ [56] "tGravityAccelerationMinY \n"                              
+ [57] "tGravityAccelerationMinZ \n"                              
+ [58] "tGravityAccelerationSignalMagnitudenitudeArea \n"         
+ [59] "tGravityAccelerationEnergyX \n"                           
+ [60] "tGravityAccelerationEnergyY \n"                           
+ [61] "tGravityAccelerationEnergyZ \n"                           
+ [62] "tGravityAccelerationInterquartileRangeX \n"               
+ [63] "tGravityAccelerationInterquartileRangeY \n"               
+ [64] "tGravityAccelerationInterquartileRangeZ \n"               
+ [65] "tGravityAccelerationEntropyX \n"                          
+ [66] "tGravityAccelerationEntropyY \n"                          
+ [67] "tGravityAccelerationEntropyZ \n"                          
+ [68] "tGravityAccelerationAutoregressionCoeffX_1 \n"            
+ [69] "tGravityAccelerationAutoregressionCoeffX_2 \n"            
+ [70] "tGravityAccelerationAutoregressionCoeffX_3 \n"            
+ [71] "tGravityAccelerationAutoregressionCoeffX_4 \n"            
+ [72] "tGravityAccelerationAutoregressionCoeffY_1 \n"            
+ [73] "tGravityAccelerationAutoregressionCoeffY_2 \n"            
+ [74] "tGravityAccelerationAutoregressionCoeffY_3 \n"            
+ [75] "tGravityAccelerationAutoregressionCoeffY_4 \n"            
+ [76] "tGravityAccelerationAutoregressionCoeffZ_1 \n"            
+ [77] "tGravityAccelerationAutoregressionCoeffZ_2 \n"            
+ [78] "tGravityAccelerationAutoregressionCoeffZ_3 \n"            
+ [79] "tGravityAccelerationAutoregressionCoeffZ_4 \n"            
+ [80] "tGravityAccelerationCorrelationX_Y \n"                    
+ [81] "tGravityAccelerationCorrelationX_Z \n"                    
+ [82] "tGravityAccelerationCorrelationY_Z \n"                    
+ [83] "tAccelerationJerkMeanX \n"                                
+ [84] "tAccelerationJerkMeanY \n"                                
+ [85] "tAccelerationJerkMeanZ \n"                                
+ [86] "tAccelerationJerkStdDevX \n"                              
+ [87] "tAccelerationJerkStdDevY \n"                              
+ [88] "tAccelerationJerkStdDevZ \n"                              
+ [89] "tAccelerationJerkMedAbsDevX \n"                           
+ [90] "tAccelerationJerkMedAbsDevY \n"                           
+ [91] "tAccelerationJerkMedAbsDevZ \n"                           
+ [92] "tAccelerationJerkMaxX \n"                                 
+ [93] "tAccelerationJerkMaxY \n"                                 
+ [94] "tAccelerationJerkMaxZ \n"                                 
+ [95] "tAccelerationJerkMinX \n"                                 
+ [96] "tAccelerationJerkMinY \n"                                 
+ [97] "tAccelerationJerkMinZ \n"                                 
+ [98] "tAccelerationJerkSignalMagnitudenitudeArea \n"            
+ [99] "tAccelerationJerkEnergyX \n"                              
+[100] "tAccelerationJerkEnergyY \n"                              
+[101] "tAccelerationJerkEnergyZ \n"                              
+[102] "tAccelerationJerkInterquartileRangeX \n"                  
+[103] "tAccelerationJerkInterquartileRangeY \n"                  
+[104] "tAccelerationJerkInterquartileRangeZ \n"                  
+[105] "tAccelerationJerkEntropyX \n"                             
+[106] "tAccelerationJerkEntropyY \n"                             
+[107] "tAccelerationJerkEntropyZ \n"                             
+[108] "tAccelerationJerkAutoregressionCoeffX_1 \n"               
+[109] "tAccelerationJerkAutoregressionCoeffX_2 \n"               
+[110] "tAccelerationJerkAutoregressionCoeffX_3 \n"               
+[111] "tAccelerationJerkAutoregressionCoeffX_4 \n"               
+[112] "tAccelerationJerkAutoregressionCoeffY_1 \n"               
+[113] "tAccelerationJerkAutoregressionCoeffY_2 \n"               
+[114] "tAccelerationJerkAutoregressionCoeffY_3 \n"               
+[115] "tAccelerationJerkAutoregressionCoeffY_4 \n"               
+[116] "tAccelerationJerkAutoregressionCoeffZ_1 \n"               
+[117] "tAccelerationJerkAutoregressionCoeffZ_2 \n"               
+[118] "tAccelerationJerkAutoregressionCoeffZ_3 \n"               
+[119] "tAccelerationJerkAutoregressionCoeffZ_4 \n"               
+[120] "tAccelerationJerkCorrelationX_Y \n"                       
+[121] "tAccelerationJerkCorrelationX_Z \n"                       
+[122] "tAccelerationJerkCorrelationY_Z \n"                       
+[123] "tGyroscopeMeanX \n"                                       
+[124] "tGyroscopeMeanY \n"                                       
+[125] "tGyroscopeMeanZ \n"                                       
+[126] "tGyroscopeStdDevX \n"                                     
+[127] "tGyroscopeStdDevY \n"                                     
+[128] "tGyroscopeStdDevZ \n"                                     
+[129] "tGyroscopeMedAbsDevX \n"                                  
+[130] "tGyroscopeMedAbsDevY \n"                                  
+[131] "tGyroscopeMedAbsDevZ \n"                                  
+[132] "tGyroscopeMaxX \n"                                        
+[133] "tGyroscopeMaxY \n"                                        
+[134] "tGyroscopeMaxZ \n"                                        
+[135] "tGyroscopeMinX \n"                                        
+[136] "tGyroscopeMinY \n"                                        
+[137] "tGyroscopeMinZ \n"                                        
+[138] "tGyroscopeSignalMagnitudenitudeArea \n"                   
+[139] "tGyroscopeEnergyX \n"                                     
+[140] "tGyroscopeEnergyY \n"                                     
+[141] "tGyroscopeEnergyZ \n"                                     
+[142] "tGyroscopeInterquartileRangeX \n"                         
+[143] "tGyroscopeInterquartileRangeY \n"                         
+[144] "tGyroscopeInterquartileRangeZ \n"                         
+[145] "tGyroscopeEntropyX \n"                                    
+[146] "tGyroscopeEntropyY \n"                                    
+[147] "tGyroscopeEntropyZ \n"                                    
+[148] "tGyroscopeAutoregressionCoeffX_1 \n"                      
+[149] "tGyroscopeAutoregressionCoeffX_2 \n"                      
+[150] "tGyroscopeAutoregressionCoeffX_3 \n"                      
+[151] "tGyroscopeAutoregressionCoeffX_4 \n"                      
+[152] "tGyroscopeAutoregressionCoeffY_1 \n"                      
+[153] "tGyroscopeAutoregressionCoeffY_2 \n"                      
+[154] "tGyroscopeAutoregressionCoeffY_3 \n"                      
+[155] "tGyroscopeAutoregressionCoeffY_4 \n"                      
+[156] "tGyroscopeAutoregressionCoeffZ_1 \n"                      
+[157] "tGyroscopeAutoregressionCoeffZ_2 \n"                      
+[158] "tGyroscopeAutoregressionCoeffZ_3 \n"                      
+[159] "tGyroscopeAutoregressionCoeffZ_4 \n"                      
+[160] "tGyroscopeCorrelationX_Y \n"                              
+[161] "tGyroscopeCorrelationX_Z \n"                              
+[162] "tGyroscopeCorrelationY_Z \n"                              
+[163] "tGyroscopeJerkMeanX \n"                                   
+[164] "tGyroscopeJerkMeanY \n"                                   
+[165] "tGyroscopeJerkMeanZ \n"                                   
+[166] "tGyroscopeJerkStdDevX \n"                                 
+[167] "tGyroscopeJerkStdDevY \n"                                 
+[168] "tGyroscopeJerkStdDevZ \n"                                 
+[169] "tGyroscopeJerkMedAbsDevX \n"                              
+[170] "tGyroscopeJerkMedAbsDevY \n"                              
+[171] "tGyroscopeJerkMedAbsDevZ \n"                              
+[172] "tGyroscopeJerkMaxX \n"                                    
+[173] "tGyroscopeJerkMaxY \n"                                    
+[174] "tGyroscopeJerkMaxZ \n"                                    
+[175] "tGyroscopeJerkMinX \n"                                    
+[176] "tGyroscopeJerkMinY \n"                                    
+[177] "tGyroscopeJerkMinZ \n"                                    
+[178] "tGyroscopeJerkSignalMagnitudenitudeArea \n"               
+[179] "tGyroscopeJerkEnergyX \n"                                 
+[180] "tGyroscopeJerkEnergyY \n"                                 
+[181] "tGyroscopeJerkEnergyZ \n"                                 
+[182] "tGyroscopeJerkInterquartileRangeX \n"                     
+[183] "tGyroscopeJerkInterquartileRangeY \n"                     
+[184] "tGyroscopeJerkInterquartileRangeZ \n"                     
+[185] "tGyroscopeJerkEntropyX \n"                                
+[186] "tGyroscopeJerkEntropyY \n"                                
+[187] "tGyroscopeJerkEntropyZ \n"                                
+[188] "tGyroscopeJerkAutoregressionCoeffX_1 \n"                  
+[189] "tGyroscopeJerkAutoregressionCoeffX_2 \n"                  
+[190] "tGyroscopeJerkAutoregressionCoeffX_3 \n"                  
+[191] "tGyroscopeJerkAutoregressionCoeffX_4 \n"                  
+[192] "tGyroscopeJerkAutoregressionCoeffY_1 \n"                  
+[193] "tGyroscopeJerkAutoregressionCoeffY_2 \n"                  
+[194] "tGyroscopeJerkAutoregressionCoeffY_3 \n"                  
+[195] "tGyroscopeJerkAutoregressionCoeffY_4 \n"                  
+[196] "tGyroscopeJerkAutoregressionCoeffZ_1 \n"                  
+[197] "tGyroscopeJerkAutoregressionCoeffZ_2 \n"                  
+[198] "tGyroscopeJerkAutoregressionCoeffZ_3 \n"                  
+[199] "tGyroscopeJerkAutoregressionCoeffZ_4 \n"                  
+[200] "tGyroscopeJerkCorrelationX_Y \n"                          
+[201] "tGyroscopeJerkCorrelationX_Z \n"                          
+[202] "tGyroscopeJerkCorrelationY_Z \n"                          
+[203] "tAccelerationMagnitudeMean \n"                            
+[204] "tAccelerationMagnitudeStdDev \n"                          
+[205] "tAccelerationMagnitudeMedAbsDev \n"                       
+[206] "tAccelerationMagnitudeMax \n"                             
+[207] "tAccelerationMagnitudeMin \n"                             
+[208] "tAccelerationMagnitudeSignalMagnitudenitudeArea \n"       
+[209] "tAccelerationMagnitudeEnergy \n"                          
+[210] "tAccelerationMagnitudeInterquartileRange \n"              
+[211] "tAccelerationMagnitudeEntropy \n"                         
+[212] "tAccelerationMagnitudeAutoregressionCoeff1 \n"            
+[213] "tAccelerationMagnitudeAutoregressionCoeff2 \n"            
+[214] "tAccelerationMagnitudeAutoregressionCoeff3 \n"            
+[215] "tAccelerationMagnitudeAutoregressionCoeff4 \n"            
+[216] "tGravityAccelerationMagnitudeMean \n"                     
+[217] "tGravityAccelerationMagnitudeStdDev \n"                   
+[218] "tGravityAccelerationMagnitudeMedAbsDev \n"                
+[219] "tGravityAccelerationMagnitudeMax \n"                      
+[220] "tGravityAccelerationMagnitudeMin \n"                      
+[221] "tGravityAccelerationMagnitudeSignalMagnitudenitudeArea \n"
+[222] "tGravityAccelerationMagnitudeEnergy \n"                   
+[223] "tGravityAccelerationMagnitudeInterquartileRange \n"       
+[224] "tGravityAccelerationMagnitudeEntropy \n"                  
+[225] "tGravityAccelerationMagnitudeAutoregressionCoeff1 \n"     
+[226] "tGravityAccelerationMagnitudeAutoregressionCoeff2 \n"     
+[227] "tGravityAccelerationMagnitudeAutoregressionCoeff3 \n"     
+[228] "tGravityAccelerationMagnitudeAutoregressionCoeff4 \n"     
+[229] "tAccelerationJerkMagnitudeMean \n"                        
+[230] "tAccelerationJerkMagnitudeStdDev \n"                      
+[231] "tAccelerationJerkMagnitudeMedAbsDev \n"                   
+[232] "tAccelerationJerkMagnitudeMax \n"                         
+[233] "tAccelerationJerkMagnitudeMin \n"                         
+[234] "tAccelerationJerkMagnitudeSignalMagnitudenitudeArea \n"   
+[235] "tAccelerationJerkMagnitudeEnergy \n"                      
+[236] "tAccelerationJerkMagnitudeInterquartileRange \n"          
+[237] "tAccelerationJerkMagnitudeEntropy \n"                     
+[238] "tAccelerationJerkMagnitudeAutoregressionCoeff1 \n"        
+[239] "tAccelerationJerkMagnitudeAutoregressionCoeff2 \n"        
+[240] "tAccelerationJerkMagnitudeAutoregressionCoeff3 \n"        
+[241] "tAccelerationJerkMagnitudeAutoregressionCoeff4 \n"        
+[242] "tGyroscopeMagnitudeMean \n"                               
+[243] "tGyroscopeMagnitudeStdDev \n"                             
+[244] "tGyroscopeMagnitudeMedAbsDev \n"                          
+[245] "tGyroscopeMagnitudeMax \n"                                
+[246] "tGyroscopeMagnitudeMin \n"                                
+[247] "tGyroscopeMagnitudeSignalMagnitudenitudeArea \n"          
+[248] "tGyroscopeMagnitudeEnergy \n"                             
+[249] "tGyroscopeMagnitudeInterquartileRange \n"                 
+[250] "tGyroscopeMagnitudeEntropy \n"                            
+[251] "tGyroscopeMagnitudeAutoregressionCoeff1 \n"               
+[252] "tGyroscopeMagnitudeAutoregressionCoeff2 \n"               
+[253] "tGyroscopeMagnitudeAutoregressionCoeff3 \n"               
+[254] "tGyroscopeMagnitudeAutoregressionCoeff4 \n"               
+[255] "tGyroscopeJerkMagnitudeMean \n"                           
+[256] "tGyroscopeJerkMagnitudeStdDev \n"                         
+[257] "tGyroscopeJerkMagnitudeMedAbsDev \n"                      
+[258] "tGyroscopeJerkMagnitudeMax \n"                            
+[259] "tGyroscopeJerkMagnitudeMin \n"                            
+[260] "tGyroscopeJerkMagnitudeSignalMagnitudenitudeArea \n"      
+[261] "tGyroscopeJerkMagnitudeEnergy \n"                         
+[262] "tGyroscopeJerkMagnitudeInterquartileRange \n"             
+[263] "tGyroscopeJerkMagnitudeEntropy \n"                        
+[264] "tGyroscopeJerkMagnitudeAutoregressionCoeff1 \n"           
+[265] "tGyroscopeJerkMagnitudeAutoregressionCoeff2 \n"           
+[266] "tGyroscopeJerkMagnitudeAutoregressionCoeff3 \n"           
+[267] "tGyroscopeJerkMagnitudeAutoregressionCoeff4 \n"           
+[268] "fAccelerationMeanX \n"                                    
+[269] "fAccelerationMeanY \n"                                    
+[270] "fAccelerationMeanZ \n"                                    
+[271] "fAccelerationStdDevX \n"                                  
+[272] "fAccelerationStdDevY \n"                                  
+[273] "fAccelerationStdDevZ \n"                                  
+[274] "fAccelerationMedAbsDevX \n"                               
+[275] "fAccelerationMedAbsDevY \n"                               
+[276] "fAccelerationMedAbsDevZ \n"                               
+[277] "fAccelerationMaxX \n"                                     
+[278] "fAccelerationMaxY \n"                                     
+[279] "fAccelerationMaxZ \n"                                     
+[280] "fAccelerationMinX \n"                                     
+[281] "fAccelerationMinY \n"                                     
+[282] "fAccelerationMinZ \n"                                     
+[283] "fAccelerationSignalMagnitudenitudeArea \n"                
+[284] "fAccelerationEnergyX \n"                                  
+[285] "fAccelerationEnergyY \n"                                  
+[286] "fAccelerationEnergyZ \n"                                  
+[287] "fAccelerationInterquartileRangeX \n"                      
+[288] "fAccelerationInterquartileRangeY \n"                      
+[289] "fAccelerationInterquartileRangeZ \n"                      
+[290] "fAccelerationEntropyX \n"                                 
+[291] "fAccelerationEntropyY \n"                                 
+[292] "fAccelerationEntropyZ \n"                                 
+[293] "fAccelerationMaxIndsX \n"                                 
+[294] "fAccelerationMaxIndsY \n"                                 
+[295] "fAccelerationMaxIndsZ \n"                                 
+[296] "fAccelerationMeanFreqX \n"                                
+[297] "fAccelerationMeanFreqY \n"                                
+[298] "fAccelerationMeanFreqZ \n"                                
+[299] "fAccelerationSkewnessFreqX \n"                            
+[300] "fAccelerationKurtosisFreqX \n"                            
+[301] "fAccelerationSkewnessFreqY \n"                            
+[302] "fAccelerationKurtosisFreqY \n"                            
+[303] "fAccelerationSkewnessFreqZ \n"                            
+[304] "fAccelerationKurtosisFreqZ \n"                            
+[305] "fAccelerationEnergyFFTBands1_8 \n"                        
+[306] "fAccelerationEnergyFFTBands9_16 \n"                       
+[307] "fAccelerationEnergyFFTBands17_24 \n"                      
+[308] "fAccelerationEnergyFFTBands25_32 \n"                      
+[309] "fAccelerationEnergyFFTBands33_40 \n"                      
+[310] "fAccelerationEnergyFFTBands41_48 \n"                      
+[311] "fAccelerationEnergyFFTBands49_56 \n"                      
+[312] "fAccelerationEnergyFFTBands57_64 \n"                      
+[313] "fAccelerationEnergyFFTBands1_16 \n"                       
+[314] "fAccelerationEnergyFFTBands17_32 \n"                      
+[315] "fAccelerationEnergyFFTBands33_48 \n"                      
+[316] "fAccelerationEnergyFFTBands49_64 \n"                      
+[317] "fAccelerationEnergyFFTBands1_24 \n"                       
+[318] "fAccelerationEnergyFFTBands25_48 \n"                      
+[319] "fAccelerationEnergyFFTBands1_8.1 \n"                      
+[320] "fAccelerationEnergyFFTBands9_16.1 \n"                     
+[321] "fAccelerationEnergyFFTBands17_24.1 \n"                    
+[322] "fAccelerationEnergyFFTBands25_32.1 \n"                    
+[323] "fAccelerationEnergyFFTBands33_40.1 \n"                    
+[324] "fAccelerationEnergyFFTBands41_48.1 \n"                    
+[325] "fAccelerationEnergyFFTBands49_56.1 \n"                    
+[326] "fAccelerationEnergyFFTBands57_64.1 \n"                    
+[327] "fAccelerationEnergyFFTBands1_16.1 \n"                     
+[328] "fAccelerationEnergyFFTBands17_32.1 \n"                    
+[329] "fAccelerationEnergyFFTBands33_48.1 \n"                    
+[330] "fAccelerationEnergyFFTBands49_64.1 \n"                    
+[331] "fAccelerationEnergyFFTBands1_24.1 \n"                     
+[332] "fAccelerationEnergyFFTBands25_48.1 \n"                    
+[333] "fAccelerationEnergyFFTBands1_8.2 \n"                      
+[334] "fAccelerationEnergyFFTBands9_16.2 \n"                     
+[335] "fAccelerationEnergyFFTBands17_24.2 \n"                    
+[336] "fAccelerationEnergyFFTBands25_32.2 \n"                    
+[337] "fAccelerationEnergyFFTBands33_40.2 \n"                    
+[338] "fAccelerationEnergyFFTBands41_48.2 \n"                    
+[339] "fAccelerationEnergyFFTBands49_56.2 \n"                    
+[340] "fAccelerationEnergyFFTBands57_64.2 \n"                    
+[341] "fAccelerationEnergyFFTBands1_16.2 \n"                     
+[342] "fAccelerationEnergyFFTBands17_32.2 \n"                    
+[343] "fAccelerationEnergyFFTBands33_48.2 \n"                    
+[344] "fAccelerationEnergyFFTBands49_64.2 \n"                    
+[345] "fAccelerationEnergyFFTBands1_24.2 \n"                     
+[346] "fAccelerationEnergyFFTBands25_48.2 \n"                    
+[347] "fAccelerationJerkMeanX \n"                                
+[348] "fAccelerationJerkMeanY \n"                                
+[349] "fAccelerationJerkMeanZ \n"                                
+[350] "fAccelerationJerkStdDevX \n"                              
+[351] "fAccelerationJerkStdDevY \n"                              
+[352] "fAccelerationJerkStdDevZ \n"                              
+[353] "fAccelerationJerkMedAbsDevX \n"                           
+[354] "fAccelerationJerkMedAbsDevY \n"                           
+[355] "fAccelerationJerkMedAbsDevZ \n"                           
+[356] "fAccelerationJerkMaxX \n"                                 
+[357] "fAccelerationJerkMaxY \n"                                 
+[358] "fAccelerationJerkMaxZ \n"                                 
+[359] "fAccelerationJerkMinX \n"                                 
+[360] "fAccelerationJerkMinY \n"                                 
+[361] "fAccelerationJerkMinZ \n"                                 
+[362] "fAccelerationJerkSignalMagnitudenitudeArea \n"            
+[363] "fAccelerationJerkEnergyX \n"                              
+[364] "fAccelerationJerkEnergyY \n"                              
+[365] "fAccelerationJerkEnergyZ \n"                              
+[366] "fAccelerationJerkInterquartileRangeX \n"                  
+[367] "fAccelerationJerkInterquartileRangeY \n"                  
+[368] "fAccelerationJerkInterquartileRangeZ \n"                  
+[369] "fAccelerationJerkEntropyX \n"                             
+[370] "fAccelerationJerkEntropyY \n"                             
+[371] "fAccelerationJerkEntropyZ \n"                             
+[372] "fAccelerationJerkMaxIndsX \n"                             
+[373] "fAccelerationJerkMaxIndsY \n"                             
+[374] "fAccelerationJerkMaxIndsZ \n"                             
+[375] "fAccelerationJerkMeanFreqX \n"                            
+[376] "fAccelerationJerkMeanFreqY \n"                            
+[377] "fAccelerationJerkMeanFreqZ \n"                            
+[378] "fAccelerationJerkSkewnessFreqX \n"                        
+[379] "fAccelerationJerkKurtosisFreqX \n"                        
+[380] "fAccelerationJerkSkewnessFreqY \n"                        
+[381] "fAccelerationJerkKurtosisFreqY \n"                        
+[382] "fAccelerationJerkSkewnessFreqZ \n"                        
+[383] "fAccelerationJerkKurtosisFreqZ \n"                        
+[384] "fAccelerationJerkEnergyFFTBands1_8 \n"                    
+[385] "fAccelerationJerkEnergyFFTBands9_16 \n"                   
+[386] "fAccelerationJerkEnergyFFTBands17_24 \n"                  
+[387] "fAccelerationJerkEnergyFFTBands25_32 \n"                  
+[388] "fAccelerationJerkEnergyFFTBands33_40 \n"                  
+[389] "fAccelerationJerkEnergyFFTBands41_48 \n"                  
+[390] "fAccelerationJerkEnergyFFTBands49_56 \n"                  
+[391] "fAccelerationJerkEnergyFFTBands57_64 \n"                  
+[392] "fAccelerationJerkEnergyFFTBands1_16 \n"                   
+[393] "fAccelerationJerkEnergyFFTBands17_32 \n"                  
+[394] "fAccelerationJerkEnergyFFTBands33_48 \n"                  
+[395] "fAccelerationJerkEnergyFFTBands49_64 \n"                  
+[396] "fAccelerationJerkEnergyFFTBands1_24 \n"                   
+[397] "fAccelerationJerkEnergyFFTBands25_48 \n"                  
+[398] "fAccelerationJerkEnergyFFTBands1_8.1 \n"                  
+[399] "fAccelerationJerkEnergyFFTBands9_16.1 \n"                 
+[400] "fAccelerationJerkEnergyFFTBands17_24.1 \n"                
+[401] "fAccelerationJerkEnergyFFTBands25_32.1 \n"                
+[402] "fAccelerationJerkEnergyFFTBands33_40.1 \n"                
+[403] "fAccelerationJerkEnergyFFTBands41_48.1 \n"                
+[404] "fAccelerationJerkEnergyFFTBands49_56.1 \n"                
+[405] "fAccelerationJerkEnergyFFTBands57_64.1 \n"                
+[406] "fAccelerationJerkEnergyFFTBands1_16.1 \n"                 
+[407] "fAccelerationJerkEnergyFFTBands17_32.1 \n"                
+[408] "fAccelerationJerkEnergyFFTBands33_48.1 \n"                
+[409] "fAccelerationJerkEnergyFFTBands49_64.1 \n"                
+[410] "fAccelerationJerkEnergyFFTBands1_24.1 \n"                 
+[411] "fAccelerationJerkEnergyFFTBands25_48.1 \n"                
+[412] "fAccelerationJerkEnergyFFTBands1_8.2 \n"                  
+[413] "fAccelerationJerkEnergyFFTBands9_16.2 \n"                 
+[414] "fAccelerationJerkEnergyFFTBands17_24.2 \n"                
+[415] "fAccelerationJerkEnergyFFTBands25_32.2 \n"                
+[416] "fAccelerationJerkEnergyFFTBands33_40.2 \n"                
+[417] "fAccelerationJerkEnergyFFTBands41_48.2 \n"                
+[418] "fAccelerationJerkEnergyFFTBands49_56.2 \n"                
+[419] "fAccelerationJerkEnergyFFTBands57_64.2 \n"                
+[420] "fAccelerationJerkEnergyFFTBands1_16.2 \n"                 
+[421] "fAccelerationJerkEnergyFFTBands17_32.2 \n"                
+[422] "fAccelerationJerkEnergyFFTBands33_48.2 \n"                
+[423] "fAccelerationJerkEnergyFFTBands49_64.2 \n"                
+[424] "fAccelerationJerkEnergyFFTBands1_24.2 \n"                 
+[425] "fAccelerationJerkEnergyFFTBands25_48.2 \n"                
+[426] "fGyroscopeMeanX \n"                                       
+[427] "fGyroscopeMeanY \n"                                       
+[428] "fGyroscopeMeanZ \n"                                       
+[429] "fGyroscopeStdDevX \n"                                     
+[430] "fGyroscopeStdDevY \n"                                     
+[431] "fGyroscopeStdDevZ \n"                                     
+[432] "fGyroscopeMedAbsDevX \n"                                  
+[433] "fGyroscopeMedAbsDevY \n"                                  
+[434] "fGyroscopeMedAbsDevZ \n"                                  
+[435] "fGyroscopeMaxX \n"                                        
+[436] "fGyroscopeMaxY \n"                                        
+[437] "fGyroscopeMaxZ \n"                                        
+[438] "fGyroscopeMinX \n"                                        
+[439] "fGyroscopeMinY \n"                                        
+[440] "fGyroscopeMinZ \n"                                        
+[441] "fGyroscopeSignalMagnitudenitudeArea \n"                   
+[442] "fGyroscopeEnergyX \n"                                     
+[443] "fGyroscopeEnergyY \n"                                     
+[444] "fGyroscopeEnergyZ \n"                                     
+[445] "fGyroscopeInterquartileRangeX \n"                         
+[446] "fGyroscopeInterquartileRangeY \n"                         
+[447] "fGyroscopeInterquartileRangeZ \n"                         
+[448] "fGyroscopeEntropyX \n"                                    
+[449] "fGyroscopeEntropyY \n"                                    
+[450] "fGyroscopeEntropyZ \n"                                    
+[451] "fGyroscopeMaxIndsX \n"                                    
+[452] "fGyroscopeMaxIndsY \n"                                    
+[453] "fGyroscopeMaxIndsZ \n"                                    
+[454] "fGyroscopeMeanFreqX \n"                                   
+[455] "fGyroscopeMeanFreqY \n"                                   
+[456] "fGyroscopeMeanFreqZ \n"                                   
+[457] "fGyroscopeSkewnessFreqX \n"                               
+[458] "fGyroscopeKurtosisFreqX \n"                               
+[459] "fGyroscopeSkewnessFreqY \n"                               
+[460] "fGyroscopeKurtosisFreqY \n"                               
+[461] "fGyroscopeSkewnessFreqZ \n"                               
+[462] "fGyroscopeKurtosisFreqZ \n"                               
+[463] "fGyroscopeEnergyFFTBands1_8 \n"                           
+[464] "fGyroscopeEnergyFFTBands9_16 \n"                          
+[465] "fGyroscopeEnergyFFTBands17_24 \n"                         
+[466] "fGyroscopeEnergyFFTBands25_32 \n"                         
+[467] "fGyroscopeEnergyFFTBands33_40 \n"                         
+[468] "fGyroscopeEnergyFFTBands41_48 \n"                         
+[469] "fGyroscopeEnergyFFTBands49_56 \n"                         
+[470] "fGyroscopeEnergyFFTBands57_64 \n"                         
+[471] "fGyroscopeEnergyFFTBands1_16 \n"                          
+[472] "fGyroscopeEnergyFFTBands17_32 \n"                         
+[473] "fGyroscopeEnergyFFTBands33_48 \n"                         
+[474] "fGyroscopeEnergyFFTBands49_64 \n"                         
+[475] "fGyroscopeEnergyFFTBands1_24 \n"                          
+[476] "fGyroscopeEnergyFFTBands25_48 \n"                         
+[477] "fGyroscopeEnergyFFTBands1_8.1 \n"                         
+[478] "fGyroscopeEnergyFFTBands9_16.1 \n"                        
+[479] "fGyroscopeEnergyFFTBands17_24.1 \n"                       
+[480] "fGyroscopeEnergyFFTBands25_32.1 \n"                       
+[481] "fGyroscopeEnergyFFTBands33_40.1 \n"                       
+[482] "fGyroscopeEnergyFFTBands41_48.1 \n"                       
+[483] "fGyroscopeEnergyFFTBands49_56.1 \n"                       
+[484] "fGyroscopeEnergyFFTBands57_64.1 \n"                       
+[485] "fGyroscopeEnergyFFTBands1_16.1 \n"                        
+[486] "fGyroscopeEnergyFFTBands17_32.1 \n"                       
+[487] "fGyroscopeEnergyFFTBands33_48.1 \n"                       
+[488] "fGyroscopeEnergyFFTBands49_64.1 \n"                       
+[489] "fGyroscopeEnergyFFTBands1_24.1 \n"                        
+[490] "fGyroscopeEnergyFFTBands25_48.1 \n"                       
+[491] "fGyroscopeEnergyFFTBands1_8.2 \n"                         
+[492] "fGyroscopeEnergyFFTBands9_16.2 \n"                        
+[493] "fGyroscopeEnergyFFTBands17_24.2 \n"                       
+[494] "fGyroscopeEnergyFFTBands25_32.2 \n"                       
+[495] "fGyroscopeEnergyFFTBands33_40.2 \n"                       
+[496] "fGyroscopeEnergyFFTBands41_48.2 \n"                       
+[497] "fGyroscopeEnergyFFTBands49_56.2 \n"                       
+[498] "fGyroscopeEnergyFFTBands57_64.2 \n"                       
+[499] "fGyroscopeEnergyFFTBands1_16.2 \n"                        
+[500] "fGyroscopeEnergyFFTBands17_32.2 \n"                       
+[501] "fGyroscopeEnergyFFTBands33_48.2 \n"                       
+[502] "fGyroscopeEnergyFFTBands49_64.2 \n"                       
+[503] "fGyroscopeEnergyFFTBands1_24.2 \n"                        
+[504] "fGyroscopeEnergyFFTBands25_48.2 \n"                       
+[505] "fAccelerationMagnitudeMean \n"                            
+[506] "fAccelerationMagnitudeStdDev \n"                          
+[507] "fAccelerationMagnitudeMedAbsDev \n"                       
+[508] "fAccelerationMagnitudeMax \n"                             
+[509] "fAccelerationMagnitudeMin \n"                             
+[510] "fAccelerationMagnitudeSignalMagnitudenitudeArea \n"       
+[511] "fAccelerationMagnitudeEnergy \n"                          
+[512] "fAccelerationMagnitudeInterquartileRange \n"              
+[513] "fAccelerationMagnitudeEntropy \n"                         
+[514] "fAccelerationMagnitudeMaxInds \n"                         
+[515] "fAccelerationMagnitudeMeanFreq \n"                        
+[516] "fAccelerationMagnitudeSkewnessFreq \n"                    
+[517] "fAccelerationMagnitudeKurtosisFreq \n"                    
+[518] "fAccelerationJerkMagnitudeMean \n"                        
+[519] "fAccelerationJerkMagnitudeStdDev \n"                      
+[520] "fAccelerationJerkMagnitudeMedAbsDev \n"                   
+[521] "fAccelerationJerkMagnitudeMax \n"                         
+[522] "fAccelerationJerkMagnitudeMin \n"                         
+[523] "fAccelerationJerkMagnitudeSignalMagnitudenitudeArea \n"   
+[524] "fAccelerationJerkMagnitudeEnergy \n"                      
+[525] "fAccelerationJerkMagnitudeInterquartileRange \n"          
+[526] "fAccelerationJerkMagnitudeEntropy \n"                     
+[527] "fAccelerationJerkMagnitudeMaxInds \n"                     
+[528] "fAccelerationJerkMagnitudeMeanFreq \n"                    
+[529] "fAccelerationJerkMagnitudeSkewnessFreq \n"                
+[530] "fAccelerationJerkMagnitudeKurtosisFreq \n"                
+[531] "fGyroscopeMagnitudeMean \n"                               
+[532] "fGyroscopeMagnitudeStdDev \n"                             
+[533] "fGyroscopeMagnitudeMedAbsDev \n"                          
+[534] "fGyroscopeMagnitudeMax \n"                                
+[535] "fGyroscopeMagnitudeMin \n"                                
+[536] "fGyroscopeMagnitudeSignalMagnitudenitudeArea \n"          
+[537] "fGyroscopeMagnitudeEnergy \n"                             
+[538] "fGyroscopeMagnitudeInterquartileRange \n"                 
+[539] "fGyroscopeMagnitudeEntropy \n"                            
+[540] "fGyroscopeMagnitudeMaxInds \n"                            
+[541] "fGyroscopeMagnitudeMeanFreq \n"                           
+[542] "fGyroscopeMagnitudeSkewnessFreq \n"                       
+[543] "fGyroscopeMagnitudeKurtosisFreq \n"                       
+[544] "fGyroscopeJerkMagnitudeMean \n"                           
+[545] "fGyroscopeJerkMagnitudeStdDev \n"                         
+[546] "fGyroscopeJerkMagnitudeMedAbsDev \n"                      
+[547] "fGyroscopeJerkMagnitudeMax \n"                            
+[548] "fGyroscopeJerkMagnitudeMin \n"                            
+[549] "fGyroscopeJerkMagnitudeSignalMagnitudenitudeArea \n"      
+[550] "fGyroscopeJerkMagnitudeEnergy \n"                         
+[551] "fGyroscopeJerkMagnitudeInterquartileRange \n"             
+[552] "fGyroscopeJerkMagnitudeEntropy \n"                        
+[553] "fGyroscopeJerkMagnitudeMaxInds \n"                        
+[554] "fGyroscopeJerkMagnitudeMeanFreq \n"                       
+[555] "fGyroscopeJerkMagnitudeSkewnessFreq \n"                   
+[556] "fGyroscopeJerkMagnitudeKurtosisFreq \n"                   
+[557] "angletAccelerationMean_gravity \n"                        
+[558] "angletAccelerationJerkMean_gravityMean \n"                
+[559] "angletGyroscopeMean_gravityMean \n"                       
+[560] "angletGyroscopeJerkMean_gravityMean \n"                   
+[561] "angleX_gravityMean \n"                                    
+[562] "angleY_gravityMean \n"                                    
+[563] "angleZ_gravityMean \n"      
